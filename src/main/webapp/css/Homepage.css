@@ -1,0 +1,373 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration:  none;
+}
+li{
+	list-style: none;
+}
+.flex{
+	display: flex;
+}
+.flex_space{
+	display: flex;
+}
+/*-----------------------Home-----------------------------------*/
+.home{
+	height: 100vh;
+	color: white;
+}
+.primary-btn{
+	padding: 15px 40px;
+	background:  rgba(13,110,253,1);
+	font-weight: bold;
+	color:white;
+	border-radius: 1rem;
+}
+.secondary-btn{
+	padding: 15px 40px;
+	background:  rgba(13,110,253,1);;
+	font-weight: bold;
+	color:#7fc142;
+	border-radius: 1rem;
+}
+.home img{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+.home .text{
+	position: absolute;
+	top: 35%;
+
+    background-color: rgb(61 67 113 / 50%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1; /* đảm bảo văn bản nằm trên ảnh */
+    width: 100%;
+}
+
+.home .text h1{
+	font-size: 80px;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+.home p {
+	margin: 20px 0;
+}
+.home button{
+	margin-right: 20px;
+	text-align: center;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+	position:absolute;
+	top:40%;
+	height: 50px;
+	width: 50px;
+	background-color:  rgba(13,110,253,1) !important;
+	color: white;
+}
+.owl-nav .owl-prev{
+	left:0;
+}
+.owl-nav .owl-next{
+	right:0;
+}
+/*----------------book------------*/
+.grid{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	gap: 20px;
+}
+
+input{
+	outline: none;
+	border:none;
+	width: 100%;
+}
+.book{
+	padding: 40px 0;
+	background-color: #282834;
+	color: white;
+}
+.book select{
+	padding:20px;
+	width: 100%;
+}
+h1{
+	font-family: serif;
+}
+.book h1{
+	font-size:28px;
+}
+
+.book h1 span {
+	color:  rgba(13,110,253,1);
+}
+.book input{
+	padding:20px;
+}
+.book input:nth-last-child(1){
+	background:  rgba(13,110,253,1);	color: white
+}
+/*-----------about--------------*/
+.left, .right{
+	width: 50%;
+	margin:30px;
+}
+.top{
+	margin-top: 80px;
+}
+.mtop{
+	margin-top: 40px;
+}
+.heading h1{
+	font-size: 100px;
+	font-weight: 500;
+	opacity: 0.1;
+	font-family:serif;
+	position: absolute;
+	top: -30px;
+}
+.heading h2{
+		margin: 30px 0;
+		font-size: 45px;
+		font-family: serif;
+		font-weight: 400;
+}
+.about .heading h1{
+	top:55px;
+}
+.about{
+	position: relative;
+}
+
+.about .left{
+	margin-top: 30px;
+	padding: 20px;
+}
+.about p{
+	font-size: 15px;
+}
+.about button{
+	margin: 30px 0;
+}
+/*----------counter -----------*/
+.counter{
+		background-image: url("https://cdn2.vietnambooking.com/wp-content/uploads/hotel_pro/hotel_354918/1a76e2828ac708097baa1953ce6d1799.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 30vh;
+		width: 100%;
+		color: white;
+}	
+	
+.counter .grid{	
+	grid-template-columns:  repeat(4,1fr);
+	text-align: center;
+	place-items: center;
+	padding-top: 60px;
+}
+.counter h1{
+	font-size: 50px;
+	color: white;
+}
+.counter span{
+	color: white;
+}
+.counter hr{
+	width:50%;
+	margin: 10px auto;
+	background: rgba(13,110,253,1);
+	border: none;
+}
+
+/*-----------rooms----------------*/
+.rooms{
+	position:relative;
+}
+.rooms .text{
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-top:none;
+	padding: 30px;
+}
+
+.rooms i{
+	font-size:12px;
+	color:#fbb234;
+	margin:15px 0;
+	margin-right:5px;
+}
+.rooms h3{
+	font-size:30px;
+	line-height: 20px;
+	margin-left: 20px;
+	font-weight: 500;
+	color:  rgba(13,110,253,1);;	
+}
+.rooms h3 span{
+	font-size:15px;
+	font-weight: 400;
+	color: black;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+	position:absolute;
+	top:-20%;
+	height: 50px;
+	width: 50px;
+	background-color: rgb(13, 110, 253) !important;
+	color: white;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next i{
+	color: white;
+}
+.owl-nav .owl-prev{
+	left:90%;
+}
+.owl-nav .owl-next{
+	right:0;
+}
+
+/*-----------discount --------------*/
+.discount{
+	position:relative;
+}
+.discount .text{
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-top:none;
+	padding: 30px;
+}
+
+.discount i{
+	font-size:12px;
+	color:#fbb234;
+	margin:15px 0;
+	margin-right:5px;
+}
+.discount h3{
+	font-size:30px;
+	line-height: 20px;
+	margin-left: 20px;
+	font-weight: 500;
+	color:  rgba(13,110,253,1);;	
+}
+.discount h3 span{
+	font-size:15px;
+	font-weight: 400;
+	color: black;
+}
+
+/*--------------services--------------*/
+.services{
+	position: relative;
+}
+
+.services .left{
+	width: 33%;
+	margin:30px;
+}
+.services .right{
+	width: 66%;
+	margin:30px;
+}
+
+.grid2{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 30px;
+}
+
+.services .left{
+	padding: 30px 0;
+	
+}
+.services .box{
+	border: 1px solid rgba(0,0,0, 0.5);
+	text-align: center;
+	transition: 0.5s;
+	padding: 20px;
+}
+.services .box .text{
+	padding: 30px 0;
+	border:1px dashed white;
+}
+.services i {
+	font-size: 50px;
+	color: #8fc142;
+	transition: 0.5s;
+}
+.services h3{
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 20px;
+	transition: 0.5;
+}
+.services img{
+	width: 100%;
+	height: 100%;
+}
+.services .box:hover{
+	background-color: #7fc142;
+	color: white;
+	cursor: pointer;
+}
+.services .box:hover i,
+.services .box:hover h3{
+
+	color: white;
+}
+/*--------------custormers-----------*/
+.customers {
+	background-image: url(https://cdn1.ivivu.com/iVivu/2018/10/05/11/khach-san-century-riverside-hue-1-800x450.jpg);
+	background-size: cover;
+	background-repeat:  no-repeat;
+	height: 70vh;
+	width: 100%;
+	color:#fff;
+	text-align: center;
+}
+.customers .container{
+	max-width: 70%;
+}
+.customers .items{
+	padding: 10% 0;
+}
+.customers i{
+	width: 100px;
+	height: 100px;
+	background: rgba(126,103,54,0.5);
+	line-height: 100px;
+	border-radius: 50%;
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+.customers p{
+	line-height: 30px;
+}
+.customers h3{
+	margin-top: 20px;
+	color:#7fc142;
+	
+}
+.customers span{
+	font-size: 15px;
+}
+
+.facilities i{
+	font-size: 20px;
+	color: #8fc142;
+	transition: 0.5s;
+}
+@media (max-width: 767px) {
+        .left .right  {
+            width: 100%;
+        }
+    }

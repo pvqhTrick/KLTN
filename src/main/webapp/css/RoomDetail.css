@@ -1,0 +1,156 @@
+#intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+
+ @media (max-width: 991px) {
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+        .col-lg-5 col-md-12 col-12{
+			display: none;
+		}
+}
+
+body{
+  background:#ccc;
+}
+.slider {
+  font-family:Arial;
+  width:500px;
+  display:block;
+  margin:0 auto;
+}
+h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+.action{
+  display:block;
+  margin:100px auto;
+  width:100%;
+  text-align:center;
+}
+.action a {
+  display:inline-block;
+  padding:5px 10px; 
+  background:#f30;
+  color:#fff;
+  text-decoration:none;
+}
+.action a:hover{
+  background:#000;
+}
+.slider-for img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	object-fit: cover;
+	width: 500px;
+}
+.slider-nav img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	max-height: 400px;
+	object-fit: cover;
+	width: 200px;
+	aspect-ratio: 1;
+}
+
+/*----------------book------------*/
+.grid{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	gap: 20px;
+}
+
+input{
+	outline: none;
+	border:none;
+	width: 100%;
+}
+.book{
+	padding: 40px 0;
+	background-color: #282834;
+	color: white;
+}
+.book select{
+	padding:20px;
+	width: 100%;
+}
+h1{
+	font-family: serif;
+}
+.book h1{
+	font-size:28px;
+}
+
+.book h1 span {
+	color:  rgba(13,110,253,1);
+}
+.book input{
+	padding:20px;
+}
+.book input:nth-last-child(1){
+	background:  rgba(13,110,253,1);	color: white
+}
+
+/*-----------rooms----------------*/
+.rooms{
+	position:relative;
+}
+.rooms .text{
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-top:none;
+	padding: 30px;
+}
+
+.rooms i{
+	font-size:12px;
+	color:#fbb234;
+	margin:15px 0;
+	margin-right:5px;
+}
+.rooms h3{
+	font-size:30px;
+	line-height: 20px;
+	margin-left: 20px;
+	font-weight: 500;
+	color:  rgba(13,110,253,1);;	
+}
+.rooms h3 span{
+	font-size:15px;
+	font-weight: 400;
+	color: black;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+	position:absolute;
+	top:-20%;
+	height: 50px;
+	width: 50px;
+	background-color: rgba(13,110,253,1) !important;
+	color: white;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next i{
+	color: white;
+}
+.owl-nav .owl-prev{
+	left:90%;
+}
+.owl-nav .owl-next{
+	right:0;
+}
+
+/*-----------discount --------------*/
